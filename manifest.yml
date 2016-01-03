@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: mz2016
+  host: mz2016
+  disk_quota: 1024M
+  services:
+  - mz2016-personality_insights
+  - IBM Push Notifications-bw
